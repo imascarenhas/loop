@@ -5,9 +5,13 @@
   "main": "loop.js",
   "author": "Marcos Scriven",
   "license": "MIT",
-  "scripts": { "start" : "node node-loop.js" },
-  "dependencies" : {
-     "socket.io-client" : "0.9.16",
-     "console-stamp" : "latest"
+  "scripts": {
+    "start": "node node-loop.js"
+  },
+  "dependencies": {
+    "console-stamp": "latest",
+    "dotenv": "^4.0.0",
+    "socket.io-client": "0.9.16",
+    "thingspeakclient": "^0.4.0"
   }
 }
